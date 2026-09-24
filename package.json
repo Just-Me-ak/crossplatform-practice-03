@@ -10,13 +10,19 @@
   },
   "devDependencies": {
     "electron": "^44.4.5",
-    "electron-builder": "^26.0.0"
+    "electron-builder": "^26.15.3"
   },
   "build": {
     "appId": "ru.fa.student.fileexplorer",
     "productName": "Electron File Explorer",
-    "mac": { "target": "dmg" },
-    "win": { "target": "nsis" },
-    "linux": { "target": "AppImage" }
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
   }
 }

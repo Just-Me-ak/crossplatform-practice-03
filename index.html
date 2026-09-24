@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Electron File Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Electron File Explorer</h1>
+    <p class="author">Климович Алиса Андреевна, группа ТРПО23-3</p>
+  </header>
+
+  <section class="controls">
+    <button id="btn-current">Показать содержимое текущего каталога</button>
+    <button id="btn-select">Выбрать каталог…</button>
+  </section>
+
+  <p id="current-path">Текущий каталог: —</p>
+  <ul id="file-list"></ul>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
