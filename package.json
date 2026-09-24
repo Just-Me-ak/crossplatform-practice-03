@@ -1,0 +1,22 @@
+{
+  "name": "electron-file-explorer",
+  "version": "1.0.0",
+  "description": "Учебное приложение Electron для просмотра каталогов",
+  "author": "Климович Алиса Андреевна, ТРПО23-3",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^44.4.5",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "ru.fa.student.fileexplorer",
+    "productName": "Electron File Explorer",
+    "mac": { "target": "dmg" },
+    "win": { "target": "nsis" },
+    "linux": { "target": "AppImage" }
+  }
+}
